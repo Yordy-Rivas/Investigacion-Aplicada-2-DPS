@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
+//nueva funcion exportada para la prueba unitaria
+export const incrementarValor = (valor) => valor + 1;
+
 export default function App() {
   const [count, setCount] = useState(0);
 
